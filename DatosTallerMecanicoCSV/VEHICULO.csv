@@ -1,0 +1,11 @@
+id_vehiculo,placa,tipo,marca,modelo,anio_fabricacion,id_propietario
+1,LBA-1023,Automovil,Toyota,Corolla,2017,1
+2,LCA-2045,Camioneta,Chevrolet,D-Max,2022,2
+3,LBD-3078,Camion,Hino,300,2018,3
+4,LCA-4090,Furgoneta,Hyundai,H1,2019,4
+5,LBA-5012,Automovil,Kia,Rio,2020,5
+6,LBA-6099,Automovil,Mazda,3,2023,1
+7,LBD-7100,Camion,Isuzu,NPR,2015,2
+8,LBD-8101,Camion,Mitsubishi,Fuso,2016,3
+9,LBD-9102,Camion,Freightliner,M2,2017,4
+10,LBD-0103,Camion,Hino,500,2021,5

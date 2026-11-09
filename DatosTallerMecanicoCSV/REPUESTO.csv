@@ -1,0 +1,7 @@
+id_repuesto,nombre,precio,stock,id_distribuidor
+1,Pastillas de freno,36,18,1
+2,Filtro de aceite,12,40,2
+3,Bateria 12 V,95,12,3
+4,Amortiguador,65,16,4
+5,Refrigerante 1 L,9,50,5
+6,Disco de freno,55,14,1

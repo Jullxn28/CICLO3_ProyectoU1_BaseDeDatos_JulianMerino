@@ -1,0 +1,9 @@
+id_reparacion,fecha,fallas,estado,costo,id_vehiculo,id_mecanico
+1,2026-10-05,Frenos desgastados,Finalizada,45,1,1
+2,2026-10-06,Cambio de aceite,Finalizada,20,2,2
+3,2026-10-07,Bateria descargada,Finalizada,25,3,3
+4,2026-10-09,Problemas de suspension,En proceso,60,4,4
+5,2026-10-10,Fuga de refrigerante,Pendiente,30,5,5
+6,2026-10-12,Revision de frenos,En proceso,40,1,1
+7,2026-10-15,Cambio de filtro,Finalizada,35,7,2
+8,2026-10-17,Amortiguadores desgastados,En proceso,75,9,4
