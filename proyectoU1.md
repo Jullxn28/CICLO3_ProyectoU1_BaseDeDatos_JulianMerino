@@ -49,7 +49,7 @@ Diseñar una base de datos que centralice la información de propietarios, vehí
 
 ### 3.1. Modelo entidad–relación (E-R)
 
-![Modelo entidad-relación del taller mecánico](assets/modelo_entidad_relacion.png)
+![Modelo entidad-relación del taller mecánico](Modelo_ER_taller.png)
 
 *Figura 1. Diagrama E-R del sistema de gestión para taller mecánico de vehículos.*
 
@@ -57,7 +57,7 @@ El modelo contempla propietarios, vehículos, mecánicos, reparaciones, repuesto
 
 ### 3.2. Modelo relacional por listas
 
-![Modelo relacional por listas, incluido en el informe](assets/modelo_relacional.png)
+![Modelo relacional por listas, incluido en el informe](ModeloRelacional_taller.png)
 
 *Figura 2. Representación relacional por listas del documento académico.*
 
