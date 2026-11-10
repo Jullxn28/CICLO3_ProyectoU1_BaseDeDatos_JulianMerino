@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo_unl.png" alt="Universidad Nacional de Loja" width="280">
+  <img src="LogoUNL/logoUNL.png" alt="Universidad Nacional de Loja" width="280">
 </p>
 
 <p align="center"><strong>FEIRNNR - Carrera de Computación</strong></p>
@@ -47,7 +47,7 @@ Diseñar una base de datos que centralice la información de propietarios, vehí
 
 ### 4.1. Modelo Entidad-Relación (E-R)
 
-![Diagrama Entidad-Relación del taller mecánico](assets/modelo_entidad_relacion.png)
+![Diagrama Entidad-Relación del taller mecánico](Modelo_ER/Modelo_ER_taller.png)
 
 *Figura 1. Diagrama Entidad-Relación del sistema [Sistema de Gestión para Taller Mecánico de Vehículos].*
 
@@ -150,7 +150,7 @@ Diseñar una base de datos que centralice la información de propietarios, vehí
 
 ### Modelo relacional por listas
 
-![Modelo relacional por listas](assets/modelo_relacional_por_listas.png)
+![Modelo relacional por listas](Modelo_ER/ModeloRelacional_taller.png)
 
 *Figura 2. Modelo Relacional sistema [Sistema de Gestión para Taller Mecánico de Vehículos].*
 
@@ -259,7 +259,7 @@ WHERE estado = 'En proceso' AND costo > 50;
 
 **Resultado esperado:** Se mostrarán las reparaciones que cumplan simultáneamente las condiciones de estado y costo. Si no existen coincidencias, el resultado estará vacío.
 
-![Resultado de la consulta 1 en Relational](assets/consulta_1_seleccion.png)
+![Resultado de la consulta 1 en Relational](Consultas/consulta1.png)
 
 *Figura 3. Resultado de la consulta 1 en Relational.*
 
@@ -284,7 +284,7 @@ CROSS JOIN `Distribuidor` d;
 
 **Resultado esperado:** Se presentarán las combinaciones posibles entre los mecánicos y los distribuidores registrados. Estas combinaciones no representan acuerdos comerciales existentes.
 
-![Resultado de la consulta 2 en Relational](assets/consulta_2_producto_cartesiano.png)
+![Resultado de la consulta 2 en Relational](Consultas/consulta2.png)
 
 *Figura 4. Resultado de la consulta 2 en Relational.*
 
@@ -310,7 +310,7 @@ WHERE d.id_distribuidor = '1';
 
 **Resultado esperado:** Se obtendrán los repuestos asociados al distribuidor seleccionado, con su nombre, precio y nombre del establecimiento que los suministra.
 
-![Resultado de la consulta 3 en Relational](assets/consulta_3_seleccion_proyeccion.png)
+![Resultado de la consulta 3 en Relational](Consultas/consulta3.png)
 
 *Figura 5. Resultado de la consulta 3 en Relational.*
 
@@ -336,7 +336,7 @@ WHERE r.estado = 'En proceso';
 
 **Resultado esperado:** Se mostrarán las placas y marcas de los vehículos con reparaciones en proceso, junto con el nombre del mecánico responsable.
 
-![Resultado de la consulta 4 en Relational](assets/consulta_4_reunion.png)
+![Resultado de la consulta 4 en Relational](Consultas/consulta4.png)
 
 *Figura 6. Resultado de la consulta 4 en Relational.*
 
@@ -363,7 +363,7 @@ HAVING COUNT(DISTINCT d.id_reparación) = 2;
 
 **Resultado esperado:** Se identificarán los repuestos que aparecen en ambas reparaciones consideradas. Los que figuran en una sola de ellas no formarán parte del resultado.
 
-![Resultado de la consulta 5 en Relational](assets/consulta_5_division.png)
+![Resultado de la consulta 5 en Relational](Consultas/consulta5.png)
 
 *Figura 7. Resultado de la consulta 5 en Relational.*
 
@@ -387,4 +387,4 @@ HAVING COUNT(DISTINCT d.id_reparación) = 2;
 
 ---
 
-**Documento original:** [ProyectoUnidad1_BaseDeDatos.docx](docs/ProyectoUnidad1_BaseDeDatos.docx).
+**Datos del taller:** [Archivos CSV](DatosTallerMecanicoCSV/).
