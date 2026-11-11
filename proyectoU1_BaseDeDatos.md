@@ -385,6 +385,4 @@ HAVING COUNT(DISTINCT d.id_reparación) = 2;
 
 [4] A. Silberschatz, H. F. Korth y S. Sudarshan, Database System Concepts, 7.ª ed. McGraw-Hill, 2019. [En línea]. Disponible en: https://www.db-book.com/  
 
----
 
-**Datos del taller:** [Archivos CSV](DatosTallerMecanicoCSV/).
